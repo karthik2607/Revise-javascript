@@ -1,0 +1,56 @@
+<h1 id="name"> karthik sudhan S G</h1>
+<button onclick="change()">change</button>
+<body>
+    <p id="age">My age is 18</p>
+    <input id="num1" value="4" >
+    
+    <input id="num2" value="5">
+    <button onclick="add()">Add</button>
+    <p id="result">Result</p>
+</body>
+
+<script>
+    var ans=document.getElementById("name")
+    ans.textContent="hi da"
+
+    var age=document.getElementById("age")
+    age.textContent="21"
+
+    var num1=document.getElementById("num1")
+    var num2=document.getElementById("num2");
+    var result=document.getElementById("result")
+
+
+    
+
+
+    
+    function add(){
+        var val1=Number(num1.value)
+        var val2=Number(num2.value)
+
+        
+
+
+        var total=val1+val2
+    
+    
+        result.textContent=total
+    }
+        
+    
+    
+
+
+
+
+    function change(){
+        
+        if(ans.textContent==="hi da"){
+        ans.textContent="Changed one"}
+        else if(ans.textContent==="Changed one"){
+        ans.textContent="hi da"
+        }
+    }
+    
+</script>
